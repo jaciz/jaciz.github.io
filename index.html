@@ -28,20 +28,19 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/banner.jpg" alt="" />
+							<img src="images/IMG_6597.jpg" alt="" />
 						</div>
 					</section>
 
 				<!-- Two -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
-							<h2>Live Tree Inventory</h2>
-							<p>This dashboard is continually updated with a database on AWS S3. 
-								The LiDAR data is fed into a pipeline where a digital elevation model (DEM) 
-								and digital surface model (DSM) are created to produce a canopy height model (CHM). 
-								This is later put into PyCrown script, which calculates the tree top positions and delineates 
-								individual tree crowns. This data is then pulled onto AWS S3 and fed into the dashboard, 
-								which is hosted on a EC2 on AWS.</p>
+							<h2>Forestry Inventory</h2>
+							<p>Using LiDAR, I classified different features into specific classes, such as vegetation, ground, and buildings. Based on these classified features,
+								I created digital surface models and digital terrain models to produce a tree canopy height models.
+								The tree canopy model was used to identify tree tops and delineate individual trees. To share the results, I designed and scripted a Python Streamlit dashboard to display an inventory of trees,
+								including information on height, spread, and elevation. The dashboard is hosted on AWS EC2 for audiences to view insights on what types of trees are in the surrounding area.
+								</p>
 							<ul class="actions stacked">
 								<li><a href="https://github.com/jaciz/dashboard-tree-inventory" class="button">Learn More</a></li>
 							</ul>
@@ -55,14 +54,15 @@
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>Climate Change Projections Over the Next 50 Years</h2>
-							<p>Set up an API and configured it to code to access live weather data, manipulated JSON data to a pandas data frame, built, trained, and accessed a Long-Term-Short Memory (LSTM) network model for predicting global temperature trend. Used Python Dash to share outputs.
+							<p> I built and trained a Long-Term-Short Memory (LSTM) network model using historical global temperatures to forecast future temperatures. This is important for future resource planning. 
+								The next steps in this project is to set up a dashboard using the Python Dash package and connect to a weather API to run the data through the model.
 							</p>
 							<ul class="actions stacked">
 								<li><a href="https://github.com/jaciz/climate-change-forecasting" class="button">Learn More</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight02.jpg" alt="" />
+							<img src="images/last_ice4.jpg" alt="" />
 						</div>
 					</section>
 
@@ -76,7 +76,7 @@
 							</ul> -->
 						</div>
 						<div class="image">
-							<img src="images/spotlight03.jpg" alt="" />
+							<img src="images/cap_161768_4000.jpg" alt="" />
 						</div>
 					</section>
 
